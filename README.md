@@ -68,7 +68,10 @@ Create a new branch.
 Make your changes and commit them.
 Push the changes to your forked repository.
 Create a pull request with a detailed description of your changes.
+
+\section*{Acknowledgment}
+We acknowledge the Centre for Applied Artificial Intelligence at Macquarie University, Sydney, Australia, for funding this research.
+
 Contact
 If you have any questions or feedback, please feel free to contact the authors:
-
-Author Name (author@email.com)
+Mahdieh Labani (mahdieh.labani@gmail.com)

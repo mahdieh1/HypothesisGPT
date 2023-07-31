@@ -1,13 +1,12 @@
 # KG-OLAP-QG
 
 ## Description
-Our proposed methodology consists of three main steps: graph generation, pathway exploration, and diverse query generation. \textbf{Figure 2} shows the pipeline of our proposed method. In the graph generation step, we generate the central graph and multi-hop graphs from each surface of the graph cube, treating each graph as an individual surface. Moving on to the pathway exploration step, we perform random walks on each graph to generate different entities. Subsequently, we apply the Dynamic Prompt algorithm, utilizing the entities generated in the previous step, to generate diverse prompts from each graph. Finally, we aggregate all the generated prompts, embed them together, and apply a transformer-based method to generate combined queries based on the different input graphs. To ensure diverse perspectives and comprehensive coverage of node connections within the graphs, we employ beam search on the generated queries.\
+Our proposed methodology consists of three main steps: graph generation, pathway exploration, and diverse query generation. \textbf{Figure 2} shows the pipeline of our proposed method. In the graph generation step, we generate the central graph and multi-hop graphs from each surface of the graph cube, treating each graph as an individual surface. Moving on to the pathway exploration step, we perform random walks on each graph to generate different entities. Subsequently, we apply the Dynamic Prompt algorithm, utilizing the entities generated in the previous step, to generate diverse prompts from each graph. Finally, we aggregate all the generated prompts, embed them together, and apply a transformer-based method to generate combined queries based on the different input graphs. To ensure diverse perspectives and comprehensive coverage of node connections within the graphs, we employ beam search on the generated queries.
 
 <p align="center">
    
 <img src="https://github.com/mahdieh1/KG-OLAP-QG/blob/main/Images/pipeline.jpg" alt="Pipeline">
-
-<\p>
+</p>
 ## Table of Contents
 - [Requirements](#requirements)
 - [Installation](#installation)

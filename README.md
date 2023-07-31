@@ -7,6 +7,7 @@ Our proposed methodology consists of three main steps: graph generation, pathway
    
 <img src="https://github.com/mahdieh1/KG-OLAP-QG/blob/main/Images/pipeline.jpg" alt="Pipeline">
 </p>
+
 ## Table of Contents
 - [Requirements](#requirements)
 - [Installation](#installation)

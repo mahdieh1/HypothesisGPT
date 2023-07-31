@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
    ```bash
    git clone https://github.com/mahdieh1/KG-OLAP-QG.git
-   
+   ```
 ## Usage
 To use the code and reproduce the results of the paper, follow these steps:
 
@@ -39,14 +39,14 @@ Run Dataset 1:
 
 ```bash
 python run_dataset1.py
-
+```
 This command will process Dataset 1 and generate the corresponding graphs based on specific features.
 
 Run Dataset 2:
 
 ```bash
 python run_dataset2.py
-
+```
 Similarly, this command will process Dataset 2 and generate the relevant graphs.
 
 Please note that our code is optimized for these two datasets. For other datasets, some modifications or adaptations may be required. Additionally, feel free to explore the code and adapt it to suit your specific use case.

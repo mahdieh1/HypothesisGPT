@@ -1,7 +1,7 @@
 # KG-OLAP-QG
 
 ## Description
-Our proposed methodology consists of three main steps: graph generation, pathway exploration, and diverse query generation. *Figure 2* shows the pipeline of our proposed method. In the graph generation step, we generate the central graph and multi-hop graphs from each surface of the graph cube, treating each graph as an individual surface. Moving on to the pathway exploration step, we perform random walks on each graph to generate different entities. Subsequently, we apply the Dynamic Prompt algorithm, utilizing the entities generated in the previous step, to generate diverse prompts from each graph. Finally, we aggregate all the generated prompts, embed them together, and apply a transformer-based method to generate combined queries based on the different input graphs. To ensure diverse perspectives and comprehensive coverage of node connections within the graphs, we employ beam search on the generated queries.
+Our proposed methodology consists of three main steps: graph generation, pathway exploration, and diverse query generation. *Figure 1* shows the pipeline of our proposed method. In the graph generation step, we generate the central graph and multi-hop graphs from each surface of the graph cube, treating each graph as an individual surface. Moving on to the pathway exploration step, we perform random walks on each graph to generate different entities. Subsequently, we apply the Dynamic Prompt algorithm, utilizing the entities generated in the previous step, to generate diverse prompts from each graph. Finally, we aggregate all the generated prompts, embed them together, and apply a transformer-based method to generate combined queries based on the different input graphs. To ensure diverse perspectives and comprehensive coverage of node connections within the graphs, we employ beam search on the generated queries.
 
 <p align="center">
    
@@ -54,7 +54,7 @@ Please note that our code is optimized for these two datasets. For other dataset
 *Disclaimer: Please make sure to respect the licenses and terms of use associated with Dataset 1 and Dataset 2. These datasets may have specific usage restrictions that you need to be aware of
 
 ## License
-This project is licensed under the [License Name] License - see the LICENSE file for details.
+This project is licensed under the GNU General Public License (GPL) Version 3.
 
 ## Contributing
 We welcome contributions to improve the code and methodology. To contribute, please follow these steps:

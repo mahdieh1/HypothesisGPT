@@ -21,15 +21,36 @@ Our proposed methodology consists of three main steps: graph generation, pathway
 ## Requirements
 - Python (>=3.6)
 
+Install Dependencies: Make sure you have all the required dependencies installed. You can find the list of dependencies in the requirements.txt file. Install them using pip:
+
+pip install -r requirements.txt
 
 ## Installation
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/mahdieh1/your_repository.git
-Usage
+   git clone https://github.com/mahdieh1/KG-OLAP-QG.git
+   
+## Usage
 To use the code and reproduce the results of the paper, follow these steps:
 
+Run Dataset 1:
+
+Copy code
+python run_dataset1.py
+This command will process Dataset 1 and generate the corresponding graphs based on specific features.
+
+Run Dataset 2:
+
+Copy code
+python run_dataset2.py
+Similarly, this command will process Dataset 2 and generate the relevant graphs.
+
+Please note that our code is optimized for these two datasets. For other datasets, some modifications or adaptations may be required. Additionally, feel free to explore the code and adapt it to suit your specific use case.
+
+If you encounter any issues or have any questions, please create an issue or reach out to us for support.
+
+Disclaimer: Please make sure to respect the licenses and terms of use associated with Dataset 1 and Dataset 2. These datasets may have specific usage restrictions that you need to be aware of
 (Add any specific data preprocessing steps, if applicable.)
 (Provide details on how to run the main code or any specific scripts.)
 Methodology Overview

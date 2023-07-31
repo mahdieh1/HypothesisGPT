@@ -1,1 +1,6 @@
-re
+pip install transformers
+pip install requests
+!pip install nltk
+pip install transformers nltk shap
+!pip install sentencepiece
+!pip install tokenizers

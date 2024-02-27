@@ -2,8 +2,8 @@
 
 <p align="center">
    
-<img src="https://github.com/mahdieh1/HypothesisGPT/tree/main/Images/Logo.jpg" alt="Pipeline">
-
+<img src="https://github.com/mahdieh1/HypothesisGPT/tree/main/Images/Logo.jpg">
+   
 </p>
 
 ## Description

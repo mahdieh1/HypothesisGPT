@@ -2,7 +2,7 @@
 
 <p align="center">
    
-<img src="https://github.com/mahdieh1/HypothesisGPT/tree/main/Images/Logo.jpg">
+<img src="https://github.com/mahdieh1/KG-OLAP-QG/blob/main/Images/pipeline.jpg">
  </p>
 
 ## Description

@@ -35,7 +35,7 @@ pip install -r requirements.txt
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/mahdieh1/KG-OLAP-QG.git
+   git clone https://github.com/mahdieh1/HypothesisGPT.git
    ```
 ## Usage
 To use the code and reproduce the results of the paper, follow these steps:
@@ -55,8 +55,6 @@ python run_dataset2.py
 Similarly, this command will process Dataset 2 and generate the relevant graphs.
 
 Please note that our code is optimized for these two datasets. For other datasets, some modifications or adaptations may be required. Additionally, feel free to explore the code and adapt it to suit your specific use case.
-
-*Disclaimer: Please make sure to respect the licenses and terms of use associated with Dataset 1 and Dataset 2. These datasets may have specific usage restrictions that you need to be aware of
 
 ## License
 This project is licensed under the GNU General Public License (GPL) Version 3.

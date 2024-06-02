@@ -1,4 +1,4 @@
-# KG-OLAP-QG
+# HypothesisGPT
 
 <p align="center">
    
